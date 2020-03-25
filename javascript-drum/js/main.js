@@ -10,7 +10,7 @@ function pushKey(ev) {
     if (!playAudio) return;
     playAudio.currentTime = 0;
     playAudio.play();
-    playKey.classList.add('playing');
+    playKey.classList.toggle('playing');
 
 }
 
